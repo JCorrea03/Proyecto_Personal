@@ -1,0 +1,60 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+}
+
+/* Container to center the button */
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center horizontally */
+    justify-content: center; /* Center vertically */
+    height: 100vh; /* Full viewport height */
+    position: relative; /* Allow positioning child elements absolutely */
+}
+
+/* Style for the logo image */
+.logo {
+    position: absolute; /* Allow it to be positioned relative to the container */
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%); /* Center the image horizontally */
+    margin-top: 80px; /* Adjust as needed to give space from the top */
+    width: 500px; /* Adjust size (e.g., 150px width) */
+    height: auto; /* Maintain aspect ratio */
+}
+
+/* Style for the button */
+.boton {
+    display: block;
+    margin: auto;
+    width: 150px;
+    height: 50px;
+    border: 2px solid rgb(9, 148, 21);
+    padding: 5px;
+    border-radius: 10px;
+    font-size: large;
+    cursor: pointer;
+}
+
+.escanea {
+    margin-top: 20px; /* Space between the button and the text */
+    font-size: 20px; /* Font size for the instruction text */
+    color: #F2FB58; /* Text color (adjust as needed) */
+}
+
+/* Optional: style the body to make sure the container is the only content */
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #187614; /* Optional background color */
+}
