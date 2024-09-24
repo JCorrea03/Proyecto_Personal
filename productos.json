@@ -1,0 +1,26 @@
+{
+    "908345": {
+        "nombre": "FizzSpark",
+        "empresa": "Lumina",
+        "categoria": "Gaseosa",
+        "precio": "$2800",
+        "contaminacion": 2,
+        "imagen": "img/908345.jpeg"
+    },
+    "112233": {
+        "nombre": "Producto B",
+        "empresa": "Empresa B",
+        "categoria": "Categoría A",
+        "precio": "$20.00",
+        "contaminacion": 5,
+        "imagen": "img/112233.jpeg"
+    },
+    "102348": {
+        "nombre": "Producto C",
+        "empresa": "Empresa C",
+        "categoria": "Categoría B",
+        "precio": "$30.00",
+        "contaminacion": 8,
+        "imagen": "img/102348.jpg"
+    }
+}
